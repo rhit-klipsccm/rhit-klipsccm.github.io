@@ -16,6 +16,12 @@
     align-items: flex-start;
 }
 
+main img {
+    width: 100%;
+    max-width: 300px;  /* caps the size */
+    height: auto;
+    display: block;
+}
 
 body {
     background-color: var(--background-color);
