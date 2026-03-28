@@ -8,7 +8,7 @@
     font-style: italic;
 }
 .bold {
-    font-style: bold;
+    font-weight: bold;
 }
 .name {
     display: flex;
@@ -25,4 +25,16 @@ body .currentPage {
     color: var(--accent-color);
     text-decoration: underline;
     font-weight: bold;
+}
+
+footer a {
+    color: var(--accent-color);
+}
+
+nav ul li:hover {
+    color: #f7c305;
+}
+
+.hidden {
+    display: none;
 }

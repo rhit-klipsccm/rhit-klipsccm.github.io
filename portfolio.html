@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./resources/styles.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 class="italic bold name">connor klipsch</h1>
+        </header>
+        <h1 class="italic">portfolio</h1>
+        <section>
+            <div id="navbar"></div>
+            <script src="./resources/navscript.js"></script>
+
+            <h2 class="italic bold">tech:</h2>
+
+            <h3 class="toggle" onclick="toggleSection(this, 'softwareList')">▶ pwnagotchi</h3>
+            <div id="pwnagotchi" class="hidden">
+                <p>Developed a custom OS image based on Debian GNU/Linux for a pentesting and wireless network auditing tool called pwnagotchi!</p>
+                <p>Technologies used:</p>
+                <ul>
+                    <li>OS Image Composer</li>
+                    <li>Python</li>
+                </ul>
+                <div>
+                    <div><img src="./resources/pegin:D.gif"></div>
+                    <p style="font-size: 0.8em;">Devious little fella, isn't he?</p>
+                </div>
+            </div>
+
+            <h3 class="toggle" onclick="toggleSection(this, 'technicalList')">▶ technical</h3>
+            <ul id="technicalList" class="hidden">
+                <li>Object-oriented software design</li>
+                <li>Modern web frameworks (React, Node.js, Flask)</li>
+                <li>Version control (git, GitHub, GitLab, SourceHut)</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="./resources/listHider.js"></script>
+</body>
+
+</html>
