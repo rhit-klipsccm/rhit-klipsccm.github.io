@@ -41,17 +41,15 @@ footer a {
     color: var(--accent-color);
 }
 
-nav ul li:hover {
-    color: #f7c305;
-}
 
-nav a {
+
+nav a, nav a:visited {
     color: var(--text-color);
-    text-decoration: none; /* optional: removes underline */
+    text-decoration: none;
 }
 
-nav a:visited {
-    color: var(--accent-color);
+nav ul li:hover a {
+    color: #f7c305;
 }
 
 .hidden {
