@@ -45,6 +45,15 @@ nav ul li:hover {
     color: #f7c305;
 }
 
+nav a {
+    color: var(--text-color);
+    text-decoration: none; /* optional: removes underline */
+}
+
+nav a:visited {
+    color: var(--accent-color);
+}
+
 .hidden {
     display: none;
 }
