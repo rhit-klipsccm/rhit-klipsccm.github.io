@@ -17,10 +17,11 @@
 
             <h2 class="italic bold">tech:</h2>
 
-            <h3 class="toggle" onclick="toggleSection(this, 'softwareList')">▶ pwnagotchi</h3>
+            <h3 class="toggle" onclick="toggleSection(this, 'pwnagotchi')">▶ pwnagotchi</h3>
             <div id="pwnagotchi" class="hidden">
+                <h3>pwnagotchi!</h3>
                 <p>Developed a custom OS image based on Debian GNU/Linux for a pentesting and wireless network auditing tool called pwnagotchi!</p>
-                <p>Technologies used:</p>
+                <p class="italic">Technologies used:</p>
                 <ul>
                     <li>OS Image Composer</li>
                     <li>Python</li>
@@ -31,12 +32,16 @@
                 </div>
             </div>
 
-            <h3 class="toggle" onclick="toggleSection(this, 'technicalList')">▶ technical</h3>
-            <ul id="technicalList" class="hidden">
-                <li>Object-oriented software design</li>
-                <li>Modern web frameworks (React, Node.js, Flask)</li>
-                <li>Version control (git, GitHub, GitLab, SourceHut)</li>
-            </ul>
+            <h3 class="toggle" onclick="toggleSection(this, 'showdownBreakdown')">▶ technical</h3>
+            <div id="showdownBreakdown" class="hidden">
+                <h3>showdown breakdown!</h3>
+                <p>Developed a suite of tools to assist a Pokémon Showdown player analyze their team's strengths and weaknesses.</p>
+                <p class="italic">Technologies used:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Matplotlib</li>
+                </ul>
+            </div>
         </section>
     </div>
 
