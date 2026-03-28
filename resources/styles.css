@@ -1,7 +1,26 @@
+:root {
+    --background-color: #5E0006;
+    --text-color: #EED9B9;
+    --accent-color: #FF7F0F;
+}
 
 .italic {
-        font-style: italic;
-    }
+    font-style: italic;
+}
 .bold {
-        font-style: bold;
-    }
+    font-style: bold;
+}
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+body .currentPage {
+    color: var(--accent-color);
+}
